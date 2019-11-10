@@ -5,7 +5,7 @@
   "proxy": {
     "/auth/google": {
       "target": "http://localhost:5000"
-    }, 
+    },
     "/api/*": {
       "target": "http://localhost:5000"
     }
@@ -21,6 +21,7 @@
     "react-scripts": "1.0.10",
     "react-stripe-checkout": "^2.4.0",
     "redux": "^4.0.4",
+    "redux-form": "^8.1.0",
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
